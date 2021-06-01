@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the description of this website">
+    <meta name="Keyword" content="nakib,nakibul islam,html project2">
+    <meta name="robots" content="INDEX,FOLLOW"> <!-- This is for google search -->
+    <title>Nakibul islam</title>
+    <!-- This is how we add extrenal CSS  -->
+    <link rel="stylesheet" href="nakib.CSS">
+
+    <!-- This is how we add extrenal JavaScript -->
+    <script src="nakib.js"></script>
+</head>
+
+<body>
+    <h1>Nakibul islam</h1>
+
+    <p>This is Nakib website welcome everyone.</p>
+    <!-- Lorem23 for 23 dami text -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aut provident possimus pariatur dolor unde
+        reprehenderit odit. <Strong>This strong tag for bold word</Strong> Minus repellendus illo voluptatem,<em>This is
+            empasiged tap like Italicfc</em> qui nobis molestiae doloribus excepturi possimus quidem fugit fuga.</p>
+
+    <hr>
+    <!--This for horizontal "hr" line-->
+    <p>This is for <br> new line</p>
+    <p> <strong>Add Link</strong> </p>
+
+    <!-- Use of Link -->
+    <a href="https://www.facebook.com/nakibulislam0/" target="_blank">Go my facebook</a> <br>
+    <!--This is for new tab opening-->
+    <a href="https://www.instagram.com/nakibulislam00/" target="_blank">Go my instagram</a> <br><br>
+    <a href="/about.html" target="_blank"> <strong>About</strong></a> <br><br>
+
+    <h2>Image add</h2>
+    <!-- Use of Image -->
+    <!-- This tag for image add "alt" use for image are not showing -->
+    <img src="" alt="Error image loding"> <br>
+    <img src="https://source.unsplash.com/user/erondu/500x500" alt="Random image showing"><br><br>
+
+
+    <!-- Use of Table and list -->
+    <h1>Table and List</h1>
+
+    <ul>
+        <li>This is my first unoder list</li>
+        <li>This is my second unoder list</li>
+        <li>This is my third unoder list</li>
+    </ul>
+
+    <ul type="square">
+        <!--We can also use any type in "ul"-->
+        <li>This is my first unoder list</li>
+        <li>This is my second unoder list</li>
+        <li>This is my third unoder list</li>
+    </ul>
+
+    <ul type="circle">
+        <li>This is my first unoder list</li>
+        <li>This is my second unoder list</li>
+        <li>This is my third unoder list</li>
+    </ul>
+
+    <ol>
+        <li>This is my first oder list</li>
+        <li>This is my second oder list</li>
+        <li>This is my third oder list</li>
+    </ol>
+
+    <ol type="A">
+        <!--We can also use any type in "ol"-->
+        <li>This is my first oder list</li>
+        <li>This is my second oder list</li>
+        <li>This is my third oder list</li>
+    </ol>
+
+    <h3>Table</h3>
+    <table>
+        <thead>
+            <caption>Stusent information</caption>
+            <tr>
+                <th>Name</th>
+                <th>Student ID</th>
+                <th>Depermant</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nakib</td>
+                <td>2022142</td>
+                <td>CSE</td>
+            </tr>
+            <tr>
+                <td>Rakib</td>
+                <td>2086218</td>
+                <td>CSE</td>
+            </tr>
+            <tr>
+                <td>Anita</td>
+                <td>2023564</td>
+                <td>BBA</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Uae of Form in website -->
+    <h2>Form</h2>
+    <form action="backhand.php">
+        <label for="name">Name:</label>
+        <!--Use of lable-->
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <div>
+            ID: <input type="text" name="myid">
+        </div>
+        <div>
+            Email: <input type="email" name="myEmail" id="">
+        </div>
+
+        <div>
+            Write about yor life <textarea name="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <!-- Use option selection -->
+        <div>
+            <label for="laptop">Laptop</label>
+            <select name="mypc" id="laptop">
+                <option value="Hp">HP</option>
+                <option value="Dell">Dell</option>
+                <option value="Lenovo">Lenovo</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="submit Now">
+            <!--submit button add-->
+            <input type="reset" value="Reset Now">
+            <!--Reset button-->
+        </div>
+    </form>
+
+    <!-- This part we know about Inline & Block Elements -->
+    <h2>Inline & Block Elements</h2>
+    <!-- "span" is Inline tag -->
+    <span>Hello word i welcome </span> <span>you to my website</span> <br> <br>
+    <span style="border: 2px solid red;">Hello word i welcome </span> <span style="border: 2px solid blue;">you to my
+        website</span>
+
+    <!-- "P" is Blick Elements -->
+    <p style="border: 2px solid red;">"P" is a </p>
+    <p style="border: 2px solid blue;">Block tag</p>
+
+    <!-- This part we know about Ids & Classes in HTML -->
+    <h2>Ids & Classes in HTML</h2>
+    <div id="mainbox" class="radbg">
+        The id global attribute defines an identifier (ID) which must be unique in the whole document. Its purpose is to
+        identify the element when linking (using a fragment identifier), scripting, or styling (with CSS).
+    </div> <br>
+    <div class="radbg">
+        The class attribute specifies one or more classnames for an element. The class attribute is mostly used to point
+        to a class in a style sheet. However, it can also be used by a JavaScript (via the HTML DOM) to make changes to
+        HTML elements with a specified class.
+    </div>
+
+    <!-- selected and prass Ctrl + / to comment -->
+    <!-- Emmet -->
+    <!-- . is for class and # is for ID -->
+    <span class="radbg"></span>
+    <span id="mainbox"></span>
+
+    <!-- Use of Entities -->
+    <h2>Entities</h2>
+    <p>We use this tag for &nbsp; space "Non-breaking Space. A commonly used entity in HTML is the non-breaking space: &nbsp;.A non-breaking space is a space that will not break into a new line."</p>
+    <p>Pregraph is written like this &lt;p&gt; To display a less than sign (<) we must write </p>
+    <p>pound written like this &pound; </p>
+    <p>Copyright written like this &copy; </p>
+    <p>We can search this all Entities in google like:Html Entities reference </p>
+
+    <!-- Use of Semantic Tags in HTML -->
+    <h2>Semantic Tags</h2>
+
+    <details>
+        <summary>Details</summary>
+        Something small enough to escape casual notice.
+    </details>
+    
+    <article>
+        <h1>How to be a wizard</h1>
+        <ol>
+            <li>Grow a long, majestic beard.</li>
+            <li>Wear a tall, pointed hat.</li>
+            <li>Have I mentioned the beard?</li>
+        </ol>
+        <footer>
+            <p>© 2018 Gandalf</p>
+        </footer>
+    </article>
+    
+    <p>Search results for "salamander":</p>
+
+    <p>Several species of <mark>salamander</mark> inhabit the temperate rainforest of the Pacific Northwest.</p>
+
+    <p>Most <mark>salamander</mark>s are nocturnal, and hunt for insects, worms, and other small creatures.</p>
+
+    <h1>Choosing an Apple</h1>
+<section>
+    <h2>Introduction</h2>
+    <p>This document provides a guide to help with the important task of choosing the correct Apple.</p>
+</section>
+
+<section>
+    <h2>Criteria</h2>
+    <p>There are many different criteria to be considered when choosing an Apple — size, color, firmness, sweetness, tartness</p>
+</section>
+
+<details>
+    <summary>I have keys but no doors. I have space but no room. You can enter but can’t leave. What am I?</summary>
+    A keyboard.
+</details>
+
+<p>The Cure will be celebrating their 40th anniversary on <time datetime="2018-07-07">July 7</time> in London's Hyde Park.</p>
+
+</body>
+
+</html>
